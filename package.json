@@ -8,7 +8,7 @@
   },
   "license": "ISC",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/main.css -o ./html/assets/css/screen.css",
+    "build": "npx postcss ./src/main.css -o ./html/assets/css/screen.css",
     "dev": "gulp",
     "test": "gscan .",
     "zip": "gulp zip"
@@ -38,6 +38,7 @@
     "postcss": "^8.4.5",
     "postcss-color-mod-function": "^3.0.3",
     "postcss-easy-import": "^3.0.0",
+    "postcss-import": "^14.0.2",
     "pump": "^3.0.0",
     "tailwindcss": "^3.0.15"
   },

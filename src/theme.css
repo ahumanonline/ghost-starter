@@ -1,0 +1,4 @@
+/* Custom theme stylesheet */
+body {
+    @apply m-0;
+}
