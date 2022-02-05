@@ -13,5 +13,6 @@
       "script" : "npm run test"
     }
   },
-  "identifier" : "80FF375A-D2A6-4E6A-A139-B4EFFEF7A002"
+  "identifier" : "80FF375A-D2A6-4E6A-A139-B4EFFEF7A002",
+  "openLogOnRun" : "finish"
 }
