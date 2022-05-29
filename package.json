@@ -3,8 +3,7 @@
   "description": "",
   "version": "0.0.1",
   "engines": {
-    "ghost": ">=4.0.0",
-    "ghost-api": "v4"
+    "ghost": ">=4.0.0"
   },
   "license": "ISC",
   "scripts": {
@@ -44,6 +43,7 @@
     "tailwindcss": "^3.0.15"
   },
   "config": {
-    "posts_per_page": 20
+    "posts_per_page": 20,
+    "card_assets": true
   }
 }
